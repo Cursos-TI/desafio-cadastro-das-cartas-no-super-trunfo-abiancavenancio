@@ -23,7 +23,7 @@
 
         printf("Cadastro da Carta 1\n");
 
-        printf ("Digite o Estado: \n");
+        printf ("Digite o Estado (A-Z): \n");
         scanf(" %c", &estado1);
 
         printf("Digite o código da carta: \n");
@@ -48,7 +48,7 @@
      
         printf("Cadastro da Carta 2\n");
 
-        printf ("Digite o Estado: \n");
+        printf ("Digite o Estado (A-Z): \n");
         scanf (" %c", &estado2);
 
         printf ("Digite o código da carta: \n");
@@ -74,24 +74,24 @@
 
         printf(" Carta 1\n");
         
-        printf ("Estado (A-H): %c\n",estado1);
+        printf ("Estado (A-Z): %c\n",estado1);
         printf ("Código: %s\n", codigo1);
         printf ("Nome da Cidade: %s\n", cidade1);
-        printf ("População: %d\n", populacao1);
+        printf ("População: %d habitantes\n", populacao1);
         printf ("Aréa: %.2f km²\n", area1);
-        printf ("PIB: %f\n", pib1);
+        printf ("PIB: %f bilhões de reais\n", pib1);
         printf ("Número de Pontos Turísticos: %d\n", pontoturistico1);
 
     // Impressão de dados - Carta 2
 
-        printf(" Carta 2\n");
+        printf("Carta 2\n");
 
-        printf ("Estado (A-H): %c\n",estado2);
+        printf ("Estado (A-Z): %c\n",estado2);
         printf ("Código: %s\n", codigo2);
         printf ("Nome da Cidade: %s\n", cidade2);
-        printf ("População: %d\n", populacao2);
+        printf ("População: %d habitantes\n", populacao2);
         printf ("Aréa: %.2f km²\n", area2);
-        printf ("PIB: %f\n", pib2);
+        printf ("PIB: %f bilhões de reais\n", pib2);
         printf ("Número de Pontos Turísticos: %d\n", pontoturistico2);
 
     
