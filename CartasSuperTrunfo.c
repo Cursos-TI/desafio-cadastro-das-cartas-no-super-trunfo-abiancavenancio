@@ -74,7 +74,7 @@
 
         printf(" Carta 1\n");
         
-        printf ("Estado (A-Z): %c\n",estado1);
+        printf ("Estado: %c\n",estado1);
         printf ("Código: %s\n", codigo1);
         printf ("Nome da Cidade: %s\n", cidade1);
         printf ("População: %d habitantes\n", populacao1);
@@ -86,7 +86,7 @@
 
         printf("Carta 2\n");
 
-        printf ("Estado (A-Z): %c\n",estado2);
+        printf ("Estado: %c\n",estado2);
         printf ("Código: %s\n", codigo2);
         printf ("Nome da Cidade: %s\n", cidade2);
         printf ("População: %d habitantes\n", populacao2);
